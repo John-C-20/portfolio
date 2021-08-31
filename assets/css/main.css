@@ -1676,3 +1676,7 @@ input, select, textarea {
     width: 3rem;
     height: 3rem;
 }
+
+img.projects {
+	width: 100%;
+}
