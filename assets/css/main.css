@@ -1687,7 +1687,7 @@ img.projects {
 	justify-content: space-between;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	margin: 0px 0px 16px;
+	/* margin: 0px 0px 16px; */
 	position: relative;
 	top: 2px;
 }
@@ -1695,7 +1695,7 @@ img.projects {
 #projects .wrapper {
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
+	gap: 60px;
 }
 
 .project-links a {
@@ -1710,11 +1710,22 @@ img.projects {
 	transform: scale(1.2);
 }
 
-h3 {
-	align-self: center;
+.project {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.project .description p {
+	margin: 0 0 1em 0;
+}
+
+.header h3 {
+	margin: 0
 }
 
 #projects .header {
 	display: flex;
 	justify-content: space-between;
 }
+
